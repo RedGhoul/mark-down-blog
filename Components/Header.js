@@ -2,13 +2,14 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-        <header>
-            <div className="container">
+        <header className="topnav">
                 <Link href='/'>
-                    <h2>Somethings Blog</h2>
+                    <a>Somethings Blog</a>
                 </Link>
-
-            </div>
+                <div className="topnav-right">
+                    <a href="#search">Github</a>
+                    <a href="#about">Portfolio</a>
+                </div>
         </header>
     )
 }

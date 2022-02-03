@@ -12,7 +12,6 @@ export default function Home({ posts }) {
             <div className="posts">
                 {posts.map((post, index) => (
                     <Post post={post} key={index}></Post>
-
                 ))}
             </div>
 
