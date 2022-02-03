@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import Head from 'next/head'
 import matter from "gray-matter";
-import Post from '../Components/Post';
+import Post from '../components/Post';
 export default function Home({ posts }) {
     return (
         <div>
